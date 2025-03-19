@@ -1,0 +1,619 @@
+<html>
+  <!-- Standard Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#00A878"> <!-- EV Green Theme -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ecovo">
+  <meta name="keywords" content="EV Charging Stations, Electric Vehicle Chargers, Find EV Charger, EV Charging Near Me, Sustainable Transport, Green Energy, Ecovo Charging Network">
+  <meta name="description" content="Find and access the nearest EV charging stations effortlessly with Ecovo. Bringing all EV chargers under one roof, we ensure a seamless, stress-free electric vehicle experience with nationwide coverage.">
+  
+  <!-- Open Graph (OG) for Social Media -->
+  <meta property="og:title" content="Ecovo - Find EV Charging Stations Near You">
+  <meta property="og:description" content="Eliminate range anxiety with Ecovo! Locate the nearest EV charging stations and enjoy 24/7 access to a reliable, tech-driven charging network.">
+  <meta property="og:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+  <meta property="og:url" content="https://www.ecovo.in">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ecovo">
+  
+  <!-- Twitter Card for X (Twitter) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ecovo - All EV Chargers Under One Roof">
+  <meta name="twitter:description" content="Find the nearest charging station for your electric vehicle with Ecovo's seamless, reliable EV charging network.">
+  <meta name="twitter:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+  <meta name="twitter:site" content="@Ecovo_Official">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.ecovo.in">
+  
+  <title>Ecovo - Locate the Nearest EV Charging Stations</title>
+  <link rel="icon" type="image/png" sizes="192x192" href="image/android-chrome-192x192.png">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <!-- Performance optimization: Preload critical resources -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    
+    <!-- Header Scripts -->
+    <script id="header-scripts">
+      // This script tag will be replaced with actual scripts.head content
+      if (window.scripts && window.scripts.head) {
+        document.getElementById('header-scripts').outerHTML = window.scripts.head;
+      }
+    </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNDPM9400T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNDPM9400T');
+</script>
+
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <!-- Font stylesheet -->
+
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+    <!-- Core CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    // render the settings object
+    //console.log('settings', [object Object]);
+    document.addEventListener('DOMContentLoaded', function() {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#4CAF50',
+                50: '#f8f8f8',
+                100: '#e8e8e8', 
+                200: '#d3d3d3',
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              secondary: {
+                DEFAULT: '#2196F3',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3', 
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              accent: {
+                DEFAULT: '',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3',
+                300: '#a3a3a3', 
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+            },
+            fontFamily: {
+              sans: ['Montserrat, sans-serif', 'Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+              heading: ['Open Sans, sans-serif', 'Inter', 'system-ui', 'sans-serif'],
+              body: ['Open Sans, sans-serif', 'Inter', 'system-ui', 'sans-serif'],
+            },
+            spacing: {
+              '18': '4.5rem',
+              '22': '5.5rem',
+              '30': '7.5rem',
+            },
+            maxWidth: {
+              '8xl': '88rem',
+              '9xl': '96rem',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in',
+              'fade-out': 'fadeOut 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'slide-down': 'slideDown 0.5s ease-out',
+              'slide-left': 'slideLeft 0.5s ease-out',
+              'slide-right': 'slideRight 0.5s ease-out',
+              'scale-in': 'scaleIn 0.5s ease-out',
+              'scale-out': 'scaleOut 0.5s ease-out',
+              'spin-slow': 'spin 3s linear infinite',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-slow': 'bounce 3s infinite',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeOut: {
+                '0%': { opacity: '1' },
+                '100%': { opacity: '0' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideDown: {
+                '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideLeft: {
+                '0%': { transform: 'translateX(20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              slideRight: {
+                '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              scaleIn: {
+                '0%': { transform: 'scale(0.9)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              scaleOut: {
+                '0%': { transform: 'scale(1.1)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+            },
+            aspectRatio: {
+              'portrait': '3/4',
+              'landscape': '4/3',
+              'ultrawide': '21/9',
+            },
+          },
+        },
+        variants: {
+          extend: {
+            opacity: ['disabled'],
+            cursor: ['disabled'],
+            backgroundColor: ['active', 'disabled'],
+            textColor: ['active', 'disabled'],
+          },
+        },
+      }
+    });
+    </script>
+
+    <!-- Utilities and Components -->
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+    
+    <!-- Optimized Font Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Dynamic Meta Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="">
+    <meta name="google-site-verification" content="">
+    <meta name="baidu-verification" content="">
+    <meta name="yandex-verification" content="">
+    <meta name="bing-verification" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="EV Owners Hub">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+  
+    
+    <!-- Font Links -->
+   
+    <link rel="icon" type="image/x-icon" href="">
+
+    <style>
+      h1, h2, h3, h4, h5, h6 {
+        font-family: Montserrat, sans-serif, Inter, system-ui, sans-serif;
+      }
+      body {
+        font-family: Open Sans, sans-serif, Inter, system-ui, sans-serif;
+      }
+    </style>
+ <body class="antialiased text-gray-800 min-h-screen flex flex-col">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+       Skip to main content
+    </a>
+
+    <!-- Main content area -->
+    <main id="main-content" class="flex-1 relative h-full">
+      <div id="RolloutPageContent"><element id="00c1f47f-02a1-4bff-a2c1-fde94fa04f47" data-section-id="00c1f47f-02a1-4bff-a2c1-fde94fa04f47">
+
+
+        <element id="ba332b02-6a38-43ee-a16c-bd741061d91c" data-section-id="ba332b02-6a38-43ee-a16c-bd741061d91c">
+
+            <div id="root">
+                <section id="header" class="relative min-h-[5vh] bg-neutral-900">
+                  <nav class="fixed w-full z-50 bg-neutral-900/90 backdrop-blur-sm">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                      <div class="flex justify-between items-center h-16">
+                        <div class="flex-shrink-0">
+                          <a href="/" class="flex items-center">
+                            <span class="text-2xl font-bold text-[#2ECC71]">ECOVO</span>
+                          </a>
+                        </div>
+                        
+                        <!-- Desktop Menu -->
+                        <div class="hidden md:flex space-x-4">
+                          <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                          <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+                          <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                          <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+                        </div>
+                        
+                        <!-- Mobile Menu Button -->
+                        <div class="md:hidden flex items-center">
+                          <button id="mobileMenuButton" class="text-gray-300 focus:outline-none">
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <!-- Mobile Menu -->
+                    <div id="mobileMenu" class="hidden md:hidden bg-neutral-900 px-2 pt-2 pb-3 flex flex-col md:flex-row md:space-x-4">
+                      <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                      <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+                      <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                      <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+                    </div>
+                  </nav>
+                </section>
+              </div>
+              
+              <script>
+                document.getElementById('mobileMenuButton').addEventListener('click', function() {
+                  document.getElementById('mobileMenu').classList.toggle('hidden');
+                });
+              </script>
+              
+     
+<div id="root">
+<section id="about-mission" class="py-16 md:py-24 bg-white dark:bg-neutral-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Mission &amp; Vision</h2>
+      <div class="w-24 h-1 bg-green-500 mx-auto mb-6"></div>
+      <p class="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+        We're committed to accelerating the world's transition to sustainable transportation by making EV charging accessible, convenient, and reliable.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="relative">
+
+        <div class="bg-gray-100 dark:bg-neutral-800 rounded-2xl p-8 md:p-12 shadow-lg relative z-10">
+          <div class="absolute -top-4 -left-4 w-24 h-24 bg-green-500 rounded-full opacity-10"></div>
+          <div class="relative z-10">
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Who We Are</h3>
+            <p class="text-gray-700 dark:text-gray-300 mb-6">
+                Ecovo was founded in 2024 by a team of passionate entrepreneurs studying at the Institute of Venture Building (IVB), driven by a vision to create sustainable and tech-driven solutions. Recognizing the growing need for eco-friendly innovation, we set out to develop smarter, more efficient systems that bridge technology and sustainability.
+
+            <p class="text-gray-700 dark:text-gray-300">
+                What started as an idea has now grown into a pioneering venture dedicated to revolutionizing the way businesses and individuals adopt sustainable practices. Our team is committed to building scalable solutions that make sustainability seamless, accessible, and impactful            </p>
+            </p>
+          </div>
+        </div>
+        <div class="absolute bottom-0 right-0 w-32 h-32 bg-blue-500 rounded-full blur-3xl opacity-10 transform translate-x-1/2 translate-y-1/2"></div>
+      </div>
+
+      <div class="space-y-8">
+        <div class="bg-gray-50 dark:bg-neutral-800 p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
+          <div class="flex items-start">
+            <div class="bg-green-100 dark:bg-green-900 p-3 rounded-full mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Our Purpose</h4>
+              <p class="text-gray-700 dark:text-gray-300">
+                To eliminate range anxiety and make electric vehicle ownership as convenient as traditional vehicles by providing reliable, accessible charging infrastructure nationwide.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-neutral-800 p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
+          <div class="flex items-start">
+            <div class="bg-blue-100 dark:bg-blue-900 p-3 rounded-full mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Our Commitment</h4>
+              <p class="text-gray-700 dark:text-gray-300">
+                We're committed to maintaining 98% uptime across our network, providing 24/7 customer support, and continuously expanding our charging infrastructure to meet growing demand.
+              </p>
+            </div>
+          </div>
+        </div>
+
+          
+            
+            
+          </div>
+        </div>
+      
+    </div>
+    <br>
+    <br>
+    <div class="bg-green-50 dark:bg-neutral-800 rounded-xl p-8 shadow-lg">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-6 bg-white dark:bg-neutral-700 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105">
+          <div class="bg-green-100 dark:bg-green-900 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+           
+          </div>
+          <h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Reliability</h4>
+          <p class="text-gray-700 dark:text-gray-300">We ensure 98% uptime across our network with dedicated maintenance teams and real-time monitoring.</p>
+        </div>
+        <div class="text-center p-6 bg-white dark:bg-neutral-700 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105">
+          <div class="bg-blue-100 dark:bg-blue-900 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Accessibility</h4>
+          <p class="text-gray-700 dark:text-gray-300">We're building a network that's convenient for all EV drivers, regardless of vehicle type or location</p>
+        </div>
+        <div class="text-center p-6 bg-white dark:bg-neutral-700 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105">
+          <div class="bg-yellow-100 dark:bg-yellow-900 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-600 dark:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Convenience</h4>
+          <p class="text-gray-700 dark:text-gray-300">Our platform makes finding, booking, and using charging stations simple and hassle free</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+</element><element id="a46c9fbb-f4fd-44fc-b982-2c83a85d22d3" data-section-id="a46c9fbb-f4fd-44fc-b982-2c83a85d22d3">
+
+<div id="root">
+<section id="about-team" class="py-16 md:py-24 bg-gray-50 dark:bg-neutral-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Meet Our Team</h2>
+      <div class="w-24 h-1 bg-green-500 mx-auto mb-6"></div>
+      <p class="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+        Our diverse team of experts is dedicated to revolutionizing EV infrastructure and making sustainable transportation accessible to all.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+      <!-- Team Member 1 -->
+      <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
+        <div class="bg-green-500 h-2"></div>
+        <div class="p-6">
+            <style>
+                .circle-img {
+                    width: 200px;  
+                    height: 100px;
+                    border-radius: 50%;
+                    object-fit: cover; 
+                    display: block;
+                }
+            </style>
+          <div class="w-24 h-24 bg-gray-200 dark:bg-neutral-600 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-green-600 dark:text-green-400">
+            <img src="image/abushan.JPG" alt="Circular Image" class="circle-img">
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white text-center mb-2">Mohammed Abushan</h3>
+          <p class="text-gray-600 dark:text-gray-300 text-center mb-6">
+            Currently studying at IVB, Tech entrepreneur who brings a digital edge to business. With a solid background in Full-stack development and Marketing, he leverages cutting-edge technology to drive sustainable innovation      <div class="flex justify-center space-x-3">
+            <a href="https://www.linkedin.com/in/abushan/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/lifeatabushan/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
+        <div class="bg-blue-500 h-2"></div>
+        <div class="p-6">
+          <div class="w-24 h-24 bg-gray-200 dark:bg-neutral-600 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-blue-600 dark:text-blue-400">
+            <img src="image/aryan.JPG" alt="Circular Image" class="circle-img">
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white text-center mb-2">Aryan Joshi</h3>
+    
+          <p class="text-gray-600 dark:text-gray-300 text-center mb-6">
+            With a strong background in economic analysis and sustainable development, he ensures that every design to be efficient, reliable, and eco-friendly. His passion for research and commitment to breakthrough technology drive us toward a greener future
+          </p>
+          <div class="flex justify-center space-x-3">
+            <a href="https://www.linkedin.com/in/aryan-joshi-868213329/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/_.aryanj.__/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
+        <div class="bg-purple-500 h-2"></div>
+        <div class="p-6">
+          <div class="w-24 h-24 bg-gray-200 dark:bg-neutral-600 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-purple-600 dark:text-purple-400">
+            <img src="image/santoh.JPG" alt="Circular Image" class="circle-img">
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white text-center mb-2">Santhosh Kumar</h3>
+          <p class="text-gray-600 dark:text-gray-300 text-center mb-6">
+                  Santhosh Kumar is an operations specialist who drives efficiency at Ecovo. With hands-on experience managing teams and streamlining processes at Flipkart Crew and McDonald's, he brings a strong operational skill set to every project
+                  </p>
+          <div class="flex justify-center space-x-3">
+            <a href="https://www.linkedin.com/in/santhosh-kumar-94824b328/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/_im._.santy_/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 4 -->
+      <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
+        <div class="bg-yellow-500 h-2"></div>
+        <div class="p-6">
+          <div class="w-24 h-24 bg-gray-200 dark:bg-neutral-600 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-yellow-600 dark:text-yellow-400">
+            <img src="image/jhanvi.JPG" alt="Circular Image" class="circle-img">
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white text-center mb-2">Jhanavi Kannan</h3>
+          
+          <p class="text-gray-600 dark:text-gray-300 text-center mb-6">
+            Currently studying at IVB, Jhanavi is a passionate marketing professional with UI/UX expertise.she specializes in content scripting and brand strategy. With a keen eye for storytelling, she drives creative campaigns and oversees marketing </p>
+          <div class="flex justify-center space-x-3">
+            <a href="https://www.linkedin.com/in/jhanavi-kannan-a23336327/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/jhanavi_26/" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300">
+              <span class="sr-only">Instagram</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    
+</section>
+
+
+
+<div id="root">
+    <footer id="footer" class="bg-neutral-900 text-gray-300">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="space-y-4">
+            <h3 class="text-white text-lg font-semibold">ECOVO</h3>
+            <p class="text-sm">Find the nearest charging station for your electric vehicle, anytime, anywhere.</p>
+            <div class="flex space-x-4">
+              <a href="https://www.instagram.com/ecovo.ev/" class="hover:text-white"><i class="fab fa-facebook-f"target="_blank"></i></a>
+              <a href="https://x.com/ecovo_ev" class="hover:text-white"><i class="fab fa-twitter" target="_blank"></i></a>
+              <a href="https://www.instagram.com/ecovo.in/"class="hover:text-white"><i class="fab fa-instagram" target="_blank"></i></a>
+              <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A105313752&keywords=ecovo&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=7a4bd9d3-3390-42d8-bd02-b0a85b05d47c&sid=L*T&spellCorrectionEnabled=true" class="hover:text-white"><i class="fab fa-linkedin-in" target="_blank"></i></a>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <h4 class="text-white text-lg font-semibold">Quick Links</h4>
+            <ul class="space-y-2">
+                <li><a href="index.html" class="hover:text-white">Home</a></li>
+                <li><a href="market.html" class="hover:text-white">Market</a></li>
+                <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                <li><a href="about.html" class="hover:text-white">About Us</a></li>
+            </ul>
+          </div>
+          
+          <div class="space-y-4">
+            <h4 class="text-white text-lg font-semibold">Contact</h4>
+            <ul class="space-y-2">
+              <li>support@ecovo.com</li>
+              <li>1-800-EV-CHARGE</li>
+              <li>123 Energy Street</li>
+              <li>Green City, EC 12345</li>
+            </ul>
+          </div>
+          
+          <div class="space-y-4">
+            <h4 class="text-white text-lg font-semibold">Download App</h4>
+            <div class="flex flex-col space-y-2">
+              <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+                <i class="fab fa-apple mr-2"></i>App Store
+              </a>
+              <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+                <i class="fab fa-google-play mr-2"></i>Google Play
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+      
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+    </element>
+    </main>
+
+    <!-- {bodyScripts} -->
+ 
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
+    <defs id="SvgjsDefs1002"></defs>
+    <polyline id="SvgjsPolyline1003" points="0,0">
+        
+    </polyline><path id="SvgjsPath1004" d="M0 0 ">
+
+</path>
+</svg>
+</body>
+</html>

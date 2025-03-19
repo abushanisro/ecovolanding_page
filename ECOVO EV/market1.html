@@ -1,0 +1,768 @@
+<html lang="en" class="scroll-smooth"><head>
+    <!-- Standard Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#00A878"> <!-- EV Green Theme -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Ecovo">
+<meta name="keywords" content="EV Charging Stations, Electric Vehicle Chargers, Find EV Charger, EV Charging Near Me, Sustainable Transport, Green Energy, Ecovo Charging Network">
+<meta name="description" content="Find and access the nearest EV charging stations effortlessly with Ecovo. Bringing all EV chargers under one roof, we ensure a seamless, stress-free electric vehicle experience with nationwide coverage.">
+
+<!-- Open Graph (OG) for Social Media -->
+<meta property="og:title" content="Ecovo - Find EV Charging Stations Near You">
+<meta property="og:description" content="Eliminate range anxiety with Ecovo! Locate the nearest EV charging stations and enjoy 24/7 access to a reliable, tech-driven charging network.">
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56jRGC2I4z6d894uMVqhkHPBfMI4lR3NOfQ&s">
+<meta property="og:url" content="https://www.ecovo.in">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ecovo">
+
+<!-- Twitter Card for X (Twitter) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ecovo - All EV Chargers Under One Roof">
+<meta name="twitter:description" content="Find the nearest charging station for your electric vehicle with Ecovo's seamless, reliable EV charging network.">
+<meta name="twitter:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+<meta name="twitter:site" content="@Ecovo_Official">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.ecovo.in">
+
+<title>Ecovo - Locate the Nearest EV Charging Stations</title>
+<link rel="icon" type="image/png" sizes="192x192" href="image/android-chrome-192x192.png">
+
+    <!-- Performance optimization: Preload critical resources -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    
+    <!-- Header Scripts -->
+    <script id="header-scripts">
+      // This script tag will be replaced with actual scripts.head content
+      if (window.scripts && window.scripts.head) {
+        document.getElementById('header-scripts').outerHTML = window.scripts.head;
+      }
+    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNDPM9400T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNDPM9400T');
+</script>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <!-- Font stylesheet -->
+
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+    <!-- Core CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '{{settings.colors.primary}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8', 
+                200: '#d3d3d3',
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              secondary: {
+                DEFAULT: '{{settings.colors.secondary}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3', 
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              accent: {
+                DEFAULT: '{{settings.colors.accent}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3',
+                300: '#a3a3a3', 
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+            },
+            fontFamily: {
+              sans: ['{{settings.fonts.primary}}', 'Roboto', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+              heading: ['{{settings.fonts.secondary}}', 'system-ui', 'sans-serif'],
+              body: ['{{settings.fonts.secondary}}', 'system-ui', 'sans-serif'],
+            },
+            spacing: {
+              '18': '4.5rem',
+              '22': '5.5rem',
+              '30': '7.5rem',
+            },
+            maxWidth: {
+              '8xl': '88rem',
+              '9xl': '96rem',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in',
+              'fade-out': 'fadeOut 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'slide-down': 'slideDown 0.5s ease-out',
+              'slide-left': 'slideLeft 0.5s ease-out',
+              'slide-right': 'slideRight 0.5s ease-out',
+              'scale-in': 'scaleIn 0.5s ease-out',
+              'scale-out': 'scaleOut 0.5s ease-out',
+              'spin-slow': 'spin 3s linear infinite',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-slow': 'bounce 3s infinite',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeOut: {
+                '0%': { opacity: '1' },
+                '100%': { opacity: '0' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideDown: {
+                '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideLeft: {
+                '0%': { transform: 'translateX(20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              slideRight: {
+                '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              scaleIn: {
+                '0%': { transform: 'scale(0.9)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              scaleOut: {
+                '0%': { transform: 'scale(1.1)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+            },
+            aspectRatio: {
+              'portrait': '3/4',
+              'landscape': '4/3',
+              'ultrawide': '21/9',
+            },
+          },
+        },
+        variants: {
+          extend: {
+            opacity: ['disabled'],
+            cursor: ['disabled'],
+            backgroundColor: ['active', 'disabled'],
+            textColor: ['active', 'disabled'],
+          },
+        },
+      }
+    });
+    </script>
+
+    <!-- Utilities and Components -->
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+    
+    <!-- Optimized Font Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Dynamic Meta Tags -->
+    <meta name="description" content="{{project.meta.ogDescription}}">
+    <meta name="keywords" content="{{project.meta.keywords}}">
+    <meta name="robots" content="{{project.meta.robotsMeta}}">
+    <meta name="google-site-verification" content="{{project.meta.googleVerification}}">
+    <meta name="baidu-verification" content="{{project.meta.baiduVerification}}">
+    <meta name="yandex-verification" content="{{project.meta.yandexVerification}}">
+    <meta name="bing-verification" content="{{project.meta.bingVerification}}">
+    <meta property="og:title" content="{{project.meta.ogTitle}}">
+    <meta property="og:description" content="{{project.meta.ogDescription}}">
+    <meta property="og:image" content="{{project.meta.ogImage}}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="{{project.name}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{project.meta.ogTitle}}">
+    <meta name="twitter:description" content="{{project.meta.ogDescription}}">
+    <meta name="twitter:image" content="{{project.meta.ogImage}}">
+
+    
+    <link rel="icon" type="image/x-icon" href="{{settings.favicon}}">
+    
+    <style>
+ h1, h2, h3, h4, h5, h6 {
+    font-family: "YourPrimaryFont", system-ui, sans-serif;
+}
+body {
+    font-family: "YourSecondaryFont", system-ui, sans-serif;
+}
+
+    </style>
+ <body class="antialiased text-gray-800 min-h-screen flex flex-col">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+       Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="relative z-50 bg-white dark:bg-gray-900">
+      <!-- Header content goes here -->
+    </header>
+
+    <!-- Main content area -->
+    <main id="main-content" class="flex-1 relative h-full">
+      <!-- Content will be injected here -->
+    </main>
+
+    <!-- {bodyScripts} -->
+
+ 
+<element id="ba332b02-6a38-43ee-a16c-bd741061d91c" data-section-id="ba332b02-6a38-43ee-a16c-bd741061d91c">
+
+  <div id="root">
+    <section id="header" class="relative min-h-[5vh] bg-neutral-900">
+      <nav class="fixed w-full z-50 bg-neutral-900/90 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center h-16">
+            <div class="flex-shrink-0">
+              <a href="/" class="flex items-center">
+                <span class="text-2xl font-bold text-[#2ECC71]">ECOVO</span>
+              </a>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-4">
+              <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+              <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+              <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+              <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+              <button id="mobileMenuButton" class="text-gray-300 focus:outline-none">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-neutral-900 px-2 pt-2 pb-3 flex flex-col md:flex-row md:space-x-4">
+          <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+          <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+          <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+          <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+        </div>
+      </nav>
+    </section>
+  </div>
+  
+  <script>
+    document.getElementById('mobileMenuButton').addEventListener('click', function() {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+  </script>
+
+
+    <!-- Main content area -->
+    <main id="main-content" class="flex-1 relative h-full">
+        <div id="RolloutPageContent"><element id="2d7e77f8-8e1e-4ac8-b3d8-23103f2288d9" data-section-id="2d7e77f8-8e1e-4ac8-b3d8-23103f2288d9">
+  
+  
+  <div id="root">
+  <section id="productCatalog" class="py-12 px-4 bg-white dark:bg-gray-900">
+    <div class="container mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-2">EV Products</h2>
+        <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Browse our curated selection of electric vehicle products</p>
+      </div>
+  
+      <!-- Categories Filter -->
+      <div class="flex flex-wrap items-center justify-center gap-3 mb-8">
+        <button class="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          All Products
+        </button>
+        <button class="bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition duration-300 hover:bg-gray-300 dark:hover:bg-gray-600 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12"></path><path d="M2 12h20"></path><path d="M12 12v8"></path></svg>
+          Charging Stations
+        </button>
+        <button class="bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition duration-300 hover:bg-gray-300 dark:hover:bg-gray-600 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 1v3"></path><path d="M5 8h14"></path><path d="M6 12h12"></path><path d="M12 20v3"></path></svg>
+          Battery Accessories
+        </button>
+        <button class="bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition duration-300 hover:bg-gray-300 dark:hover:bg-gray-600 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+          Interior Accessories
+        </button>
+        <button class="bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition duration-300 hover:bg-gray-300 dark:hover:bg-gray-600 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          Software Solutions
+        </button>
+      </div>
+  
+      <!-- Product Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Product Card 1 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://www.team-bhp.com/sites/default/files/styles/amp_high_res/public/bydhomechargerimg.jpg" alt="EV Home Charger" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">41% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">Home EV Charging Station</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(128)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Fast charging for all EV models with smart energy management system.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹39,999</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white"> ₹22,999</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 2 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIhpPSjzsuDSSqdVDJ4Fpg5cZF2SGhWmRKbQ&s" alt="Portable EV Charger" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">49% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">Portable EV Charger</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.5" stroke="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="none"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(94)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Emergency charging solution with universal compatibility for all electric vehicles.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹28,500</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white"> ₹14,400</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 3 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://www.victronenergy.com/blog/wp-content/uploads/sites/10/2019/08/headline-blog1_110661957.jpg" alt="EV Battery Monitor" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">44% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">Smart Battery Monitor</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(203)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Real-time battery health monitoring with smartphone integration and alerts.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹44,743</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white"> ₹24,857</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 4 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTP9KUyZFFfiGzYU4AqzlwfFHXuocK8P-7Eg&s" alt="EV Route Planner" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">18% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">EV Route Planner Pro</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(176)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Advanced software for planning road trips with charging station mapping and range prediction.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹4999</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white">₹2999</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 5 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://i5.walmartimages.com/asr/fa86c6df-daa1-4d77-b3a5-4845cf685668.c5a4dd308d28590130bf24ecbf8801fe.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" alt="EV Weather Shield" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">10% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">EV Weather Shield</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.5" stroke="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="none"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(82)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">All-weather protection for charging ports and connections in extreme conditions.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹999</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white">₹599</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 6 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://ieee-dataport.org/sites/default/files/106565436-1591287690258witricityimage_0.jpg" alt="Wireless EV Charger" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">14% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">Wireless Charging Pad</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.5" stroke="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="none"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.5" stroke="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="none"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(64)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Innovative wireless charging solution for compatible electric vehicles. No cables needed.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹32,000</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white">₹21,000</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 7 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZXx3QwZusWCwwBFuVRpMU76XnusDQ0y0Xt_vLmVwBjO4ksD0LbfhZiflcIwc6K7oemU&usqp=CAU" alt="EV Range Extender" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">11% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">EV Range Extender</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.5" stroke="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="none"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(118)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Portable battery pack for emergency range extension. Adds up to 50 miles per charge.</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹52,000</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white">₹43,000</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 8 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 group border border-gray-200 dark:border-gray-700">
+          <div class="relative">
+            <img src="https://media.licdn.com/dms/image/v2/C560BAQHWj41pP7jcgA/company-logo_200_200/company-logo_200_200/0/1672928188573?e=2147483647&v=beta&t=qFQjdwfIjpEkFnjBGdiH4FfmzHt_GhB3ScLOoIaHhj0" alt="Charging Station Finder" class="w-full h-56 object-cover">
+            <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-bl-lg">20% Discount</div>
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+              <button class="bg-white text-gray-800 px-4 py-2 rounded-full font-medium text-sm transform -translate-y-4 group-hover:translate-y-0 transition-all duration-300 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Quick View
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-1">Station App</h3>
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <span class="text-xs text-gray-500 dark:text-gray-400 ml-1">(245)</span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Premium software subscription for finding available charging stations with realtime updates and Securtiy Fleet management</p>
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col">
+                <span class="text-gray-500 dark:text-gray-400 text-xs line-through">₹999/yr</span>
+                <span class="text-xl font-bold text-gray-800 dark:text-white">₹499/yr</span>
+              </div>
+              <button class="bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition duration-300 hover:bg-green-700 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Pagination -->
+      <div class="flex justify-center mt-12">
+        <nav class="flex items-center space-x-2">
+          <button class="px-3 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+          <button class="px-4 py-2 rounded-md bg-green-600 text-white font-medium hover:bg-green-700 transition duration-200">1</button>
+          <button class="px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-200">2</button>
+          <button class="px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-200">3</button>
+          <span class="px-4 py-2 text-gray-600 dark:text-gray-400">...</span>
+          <button class="px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-200">8</button>
+          <button class="px-3 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </nav>
+      </div>
+  
+      <!-- Affiliate Info -->
+      <div class="mt-16 bg-green-50 dark:bg-green-900/20 rounded-xl p-6 shadow-sm border border-green-100 dark:border-green-800">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <div class="mb-6 md:mb-0 md:mr-6">
+            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">EV Market Place</h3>
+            <p class="text-gray-600 dark:text-gray-300">Comming Soon</p>
+          </div>
+          <div class="flex-shrink-0">
+            <a href="https://www.instagram.com/ecovo.in/" target="_blank">
+              <button class="bg-green-600 text-white px-6 py-3 rounded-lg text-base font-semibold transition duration-300 hover:bg-green-700 flex items-center">
+                <svg class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="8.5" cy="7" r="4"></circle>
+                  <line x1="20" y1="8" x2="20" y2="14"></line>
+                  <line x1="23" y1="11" x2="17" y2="11"></line>
+                </svg>
+                Join Our EV Community
+              </button>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  
+  </element></div>
+      </main>
+  
+
+<div id="root">
+<footer id="footer" class="bg-neutral-900 text-gray-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="space-y-4">
+        <h3 class="text-white text-lg font-semibold">ECOVO</h3>
+        <p class="text-sm">Find the nearest charging station for your electric vehicle, anytime, anywhere.</p>
+        <div class="flex space-x-4">
+            <a href="https://www.instagram.com/ecovo.ev/" class="hover:text-white"target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/ecovo_ev" class="hover:text-white"><i class="fab fa-twitter"target="_blank"></i></a>
+            <a href="https://www.instagram.com/ecovo.in/ "class="hover:text-white"><i class="fab fa-instagram" target="_blank"></i></a>
+            <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A105313752&keywords=ecovo&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=7a4bd9d3-3390-42d8-bd02-b0a85b05d47c&sid=L*T&spellCorrectionEnabled=true" class="hover:text-white" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+      
+      <div class="space-y-4">
+        <h4 class="text-white text-lg font-semibold">Quick Links</h4>
+        <ul class="space-y-2">
+            <li><a href="index.html" class="hover:text-white">Home</a></li>
+            <li><a href="market.html" class="hover:text-white">Market</a></li>
+            <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+            <li><a href="about.html" class="hover:text-white">About Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="space-y-4">
+        <h4 class="text-white text-lg font-semibold">Contact</h4>
+        <ul class="space-y-2">
+          <li>support@ecovo.com</li>
+          <li>1-800-EV-CHARGE</li>
+          <li>123 Energy Street</li>
+          <li>Green City, EC 12345</li>
+        </ul>
+      </div>
+      
+      <div class="space-y-4">
+        <h4 class="text-white text-lg font-semibold">Download App</h4>
+        <div class="flex flex-col space-y-2">
+          <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+            <i class="fab fa-apple mr-2"></i>App Store
+          </a>
+          <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+            <i class="fab fa-google-play mr-2"></i>Google Play
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</element>
+          <div id="page_complete">
+          <script>
+              console.log('Page complete');
+          </script>
+  
+        </div>
+        <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
+            <defs id="SvgjsDefs1002"></defs>
+            <polyline id="SvgjsPolyline1003" points="0,0"></polyline>
+            <path id="SvgjsPath1004" d="M0 0 "></path>
+        </svg>
+        </body>
+        </html>

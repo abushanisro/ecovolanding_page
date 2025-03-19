@@ -1,0 +1,531 @@
+<html lang="en" class="scroll-smooth"><head>
+    <!-- Standard Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#00A878"> <!-- EV Green Theme -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Ecovo">
+<meta name="keywords" content="EV Charging Stations, Electric Vehicle Chargers, Find EV Charger, EV Charging Near Me, Sustainable Transport, Green Energy, Ecovo Charging Network">
+<meta name="description" content="Find and access the nearest EV charging stations effortlessly with Ecovo. Bringing all EV chargers under one roof, we ensure a seamless, stress-free electric vehicle experience with nationwide coverage.">
+
+<!-- Open Graph (OG) for Social Media -->
+<meta property="og:title" content="Ecovo - Find EV Charging Stations Near You">
+<meta property="og:description" content="Eliminate range anxiety with Ecovo! Locate the nearest EV charging stations and enjoy 24/7 access to a reliable, tech-driven charging network.">
+<meta property="og:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+<meta property="og:url" content="https://www.ecovo.in">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ecovo">
+
+<!-- Twitter Card for X (Twitter) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ecovo - All EV Chargers Under One Roof">
+<meta name="twitter:description" content="Find the nearest charging station for your electric vehicle with Ecovo's seamless, reliable EV charging network.">
+<meta name="twitter:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+<meta name="twitter:site" content="@Ecovo_Official">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.ecovo.in">
+
+<title>Ecovo - Locate the Nearest EV Charging Stations</title>
+<link rel="icon" type="image/png" sizes="192x192" href="image/android-chrome-192x192.png">
+
+    <!-- Performance optimization: Preload critical resources -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    
+    <!-- Header Scripts -->
+    <script id="header-scripts">
+      // This script tag will be replaced with actual scripts.head content
+      if (window.scripts && window.scripts.head) {
+        document.getElementById('header-scripts').outerHTML = window.scripts.head;
+      }
+    </script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNDPM9400T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNDPM9400T');
+</script>
+
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <!-- Font stylesheet -->
+
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+    <!-- Core CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '{{settings.colors.primary}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8', 
+                200: '#d3d3d3',
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              secondary: {
+                DEFAULT: '{{settings.colors.secondary}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3', 
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              accent: {
+                DEFAULT: '{{settings.colors.accent}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3',
+                300: '#a3a3a3', 
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+            },
+            fontFamily: {
+              sans: ['{{settings.fonts.primary}}', 'Roboto', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+              heading: ['{{settings.fonts.secondary}}', 'system-ui', 'sans-serif'],
+              body: ['{{settings.fonts.secondary}}', 'system-ui', 'sans-serif'],
+            },
+            spacing: {
+              '18': '4.5rem',
+              '22': '5.5rem',
+              '30': '7.5rem',
+            },
+            maxWidth: {
+              '8xl': '88rem',
+              '9xl': '96rem',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in',
+              'fade-out': 'fadeOut 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'slide-down': 'slideDown 0.5s ease-out',
+              'slide-left': 'slideLeft 0.5s ease-out',
+              'slide-right': 'slideRight 0.5s ease-out',
+              'scale-in': 'scaleIn 0.5s ease-out',
+              'scale-out': 'scaleOut 0.5s ease-out',
+              'spin-slow': 'spin 3s linear infinite',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-slow': 'bounce 3s infinite',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeOut: {
+                '0%': { opacity: '1' },
+                '100%': { opacity: '0' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideDown: {
+                '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideLeft: {
+                '0%': { transform: 'translateX(20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              slideRight: {
+                '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              scaleIn: {
+                '0%': { transform: 'scale(0.9)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              scaleOut: {
+                '0%': { transform: 'scale(1.1)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+            },
+            aspectRatio: {
+              'portrait': '3/4',
+              'landscape': '4/3',
+              'ultrawide': '21/9',
+            },
+          },
+        },
+        variants: {
+          extend: {
+            opacity: ['disabled'],
+            cursor: ['disabled'],
+            backgroundColor: ['active', 'disabled'],
+            textColor: ['active', 'disabled'],
+          },
+        },
+      }
+    });
+    </script>
+
+    <!-- Utilities and Components -->
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+    
+    <!-- Optimized Font Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>GroSave-About Us</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon-16x16.png"/>
+
+    <!-- CSS
+	============================================ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="assets/css/vendor/font.awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="assets/css/vendor/ionicons.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/slick.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <!-- jQuery Ui -->
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+
+    <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
+
+    <!-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css"> -->
+
+    <!-- Main Style CSS (Please use minify version for better website load performance) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Dynamic Meta Tags -->
+    <meta name="description" content="{{project.meta.ogDescription}}">
+    <meta name="keywords" content="{{project.meta.keywords}}">
+    <meta name="robots" content="{{project.meta.robotsMeta}}">
+    <meta name="google-site-verification" content="{{project.meta.googleVerification}}">
+    <meta name="baidu-verification" content="{{project.meta.baiduVerification}}">
+    <meta name="yandex-verification" content="{{project.meta.yandexVerification}}">
+    <meta name="bing-verification" content="{{project.meta.bingVerification}}">
+    <meta property="og:title" content="{{project.meta.ogTitle}}">
+    <meta property="og:description" content="{{project.meta.ogDescription}}">
+    <meta property="og:image" content="{{project.meta.ogImage}}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="{{project.name}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{project.meta.ogTitle}}">
+    <meta name="twitter:description" content="{{project.meta.ogDescription}}">
+    <meta name="twitter:image" content="{{project.meta.ogImage}}">
+
+    
+    <link rel="icon" type="image/x-icon" href="{{settings.favicon}}">
+    
+    <style>
+ h1, h2, h3, h4, h5, h6 {
+    font-family: "YourPrimaryFont", system-ui, sans-serif;
+}
+body {
+    font-family: "YourSecondaryFont", system-ui, sans-serif;
+}
+
+    </style>
+ <body class="antialiased text-gray-800 min-h-screen flex flex-col">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+       Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="relative z-50 bg-white dark:bg-gray-900">
+      <!-- Header content goes here -->
+    </header>
+
+    <!-- Main content area -->
+    <main id="main-content" class="flex-1 relative h-full">
+      <!-- Content will be injected here -->
+    </main>
+
+    <!-- {bodyScripts} -->
+
+ 
+<element id="ba332b02-6a38-43ee-a16c-bd741061d91c" data-section-id="ba332b02-6a38-43ee-a16c-bd741061d91c">
+
+    <div id="root">
+        <section id="header" class="relative min-h-[5vh] bg-neutral-900">
+          <nav class="fixed w-full z-50 bg-neutral-900/90 backdrop-blur-sm">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                  <a href="/" class="flex items-center">
+                    <span class="text-2xl font-bold text-[#2ECC71]">ECOVO</span>
+                  </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-4">
+                  <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                  <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+                  <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                  <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                  <button id="mobileMenuButton" class="text-gray-300 focus:outline-none">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden bg-neutral-900 px-2 pt-2 pb-3 flex flex-col md:flex-row md:space-x-4">
+              <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+              <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+              <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+              <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+            </div>
+          </nav>
+        </section>
+      </div>
+      
+      <script>
+        document.getElementById('mobileMenuButton').addEventListener('click', function() {
+          document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+      </script>
+      
+
+
+
+
+<div id="root">
+<section id="faq" class="bg-neutral-900 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16 animate__animated animate__fadeIn">
+      <h2 class="text-3xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+      <p class="text-gray-400 max-w-2xl mx-auto">Find answers to common questions about our EV charging platform</p>
+    </div>
+
+    <div class="max-w-3xl mx-auto space-y-4">
+      <!-- FAQ Item 1 -->
+      <div class="bg-neutral-800 rounded-xl animate__animated animate__fadeInUp">
+        <button class="faq-toggle w-full px-6 py-4 flex justify-between items-center">
+          <span class="text-white font-medium">How do I book a charging station?</span>
+          <svg class="w-6 h-6 text-[#2ECC71] transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="faq-content hidden px-6 pb-4">
+          <p class="text-gray-400">You can book a charging station through our mobile app or website. Simply select your preferred location, choose an available time slot, and confirm your booking. You'll receive a confirmation notification immediately.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="bg-neutral-800 rounded-xl animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
+        <button class="faq-toggle w-full px-6 py-4 flex justify-between items-center">
+          <span class="text-white font-medium">What payment methods are accepted?</span>
+          <svg class="w-6 h-6 text-[#2ECC71] transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="faq-content hidden px-6 pb-4">
+          <p class="text-gray-400">We accept all major credit cards, debit cards, and digital wallets including Apple Pay and Google Pay. You can also set up automatic payments through our app.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="bg-neutral-800 rounded-xl animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
+        <button class="faq-toggle w-full px-6 py-4 flex justify-between items-center">
+          <span class="text-white font-medium">Can I cancel my booking?</span>
+          <svg class="w-6 h-6 text-[#2ECC71] transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="faq-content hidden px-6 pb-4">
+          <p class="text-gray-400">Yes, you can cancel your booking free of charge up to 1 hour before your scheduled time. Late cancellations may incur a small fee.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="bg-neutral-800 rounded-xl animate__animated animate__fadeInUp" style="animation-delay: 0.3s">
+        <button class="faq-toggle w-full px-6 py-4 flex justify-between items-center">
+          <span class="text-white font-medium">What types of connectors are available?</span>
+          <svg class="w-6 h-6 text-[#2ECC71] transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="faq-content hidden px-6 pb-4">
+          <p class="text-gray-400">Our stations support Type 2, CCS, and CHAdeMO connectors. You can filter stations by connector type in the app to find compatible charging points.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="bg-neutral-800 rounded-xl animate__animated animate__fadeInUp" style="animation-delay: 0.4s">
+        <button class="faq-toggle w-full px-6 py-4 flex justify-between items-center">
+          <span class="text-white font-medium">What happens if I'm late for my booking?</span>
+          <svg class="w-6 h-6 text-[#2ECC71] transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="faq-content hidden px-6 pb-4">
+          <p class="text-gray-400">We provide a 15-minute grace period. After that, your booking may be released to other users. It's best to arrive 5 minutes before your scheduled time.</p>
+        </div>
+        
+      </div>
+      <!-- Centered Email Support Box -->
+<div class="flex justify-center mt-12 animate__animated animate__fadeIn">
+    <div class="text-center">
+      <p class="text-gray-400 mb-4">Still have questions?</p>
+      
+      <div class="bg-gray-100 p-4 rounded-xl shadow-md w-full max-w-sm mx-auto text-center border border-gray-300">
+        <h4 class="text-lg font-semibold text-gray-700">E-Mail Support</h4>
+        <div class="mt-2 bg-white p-3 rounded-lg shadow-inner border border-gray-200">
+          <a href="mailto:ecovowork@gmail.com" class="text-blue-600 font-medium hover:underline">
+            ecovowork@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-toggle').forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const content = toggle.nextElementSibling;
+        const icon = toggle.querySelector('svg');
+        
+        content.classList.toggle('hidden');
+        icon.classList.toggle('rotate-180');
+        
+        // Close other FAQ items
+        document.querySelectorAll('.faq-content').forEach(item => {
+          if (item !== content) {
+            item.classList.add('hidden');
+            item.previousElementSibling.querySelector('svg').classList.remove('r otate-180');
+          }
+        });
+      });
+    });
+  </script>
+</section>
+</div></element><element id="74a2ca62-35ac-4b06-afd3-14fcef831ef6" data-section-id="74a2ca62-35ac-4b06-afd3-14fcef831ef6">
+<!-- Breadcrumb Area End Here -->
+        <!-- Contact Us Area Start Here -->
+    
+
+        <div id="root">
+            <footer id="footer" class="bg-neutral-900 text-gray-300">
+              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                  <div class="space-y-4">
+                    <h3 class="text-white text-lg font-semibold">ECOVO</h3>
+                    <p class="text-sm">Find the nearest charging station for your electric vehicle, anytime, anywhere</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/ecovo.ev/" class="hover:text-white" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/ecovo_ev" class="hover:text-white"><i class="fab fa-twitter" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/ecovo.in/ "class="hover:text-white"><i class="fab fa-instagram" target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A105313752&keywords=ecovo&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=7a4bd9d3-3390-42d8-bd02-b0a85b05d47c&sid=L*T&spellCorrectionEnabled=true" class="hover:text-white" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+                  
+                  <div class="space-y-4">
+                    <h4 class="text-white text-lg font-semibold">Quick Links</h4>
+                    <ul class="space-y-2">
+                      <li><a href="index.html" class="hover:text-white">Home</a></li>
+                      <li><a href="market.html" class="hover:text-white">Market</a></li>
+                      <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                      <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="space-y-4">
+                    <h4 class="text-white text-lg font-semibold">Contact</h4>
+                    <ul class="space-y-2">
+                      <li>support@ecovo.com</li>
+                      <li>1-800-EV-CHARGE</li>
+                      <li>123 Energy Street</li>
+                      <li>Green City, EC 12345</li>
+                    </ul>
+                  </div>
+                  
+                  <div class="space-y-4">
+                    <h4 class="text-white text-lg font-semibold">Download App</h4>
+                    <div class="flex flex-col space-y-2">
+                      <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+                        <i class="fab fa-apple mr-2"></i>App Store
+                      </a>
+                      <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+                        <i class="fab fa-google-play mr-2"></i>Google Play
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              
+                  </div>
+                </div>
+              </div>
+            </footer>
+            </div>
+        </element>
+          <div id="page_complete">
+          <script>
+              console.log('Page complete');
+          </script>
+  
+        </div>
+        <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
+            <defs id="SvgjsDefs1002"></defs>
+            <polyline id="SvgjsPolyline1003" points="0,0"></polyline>
+            <path id="SvgjsPath1004" d="M0 0 "></path>
+        </svg>
+        </body>
+        </html>

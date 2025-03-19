@@ -1,0 +1,598 @@
+<html lang="en" class="scroll-smooth"><head>
+    <!-- Standard Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#00A878"> <!-- EV Green Theme -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Ecovo">
+<meta name="keywords" content="EV Charging Stations, Electric Vehicle Chargers, Find EV Charger, EV Charging Near Me, Sustainable Transport, Green Energy, Ecovo Charging Network">
+<meta name="description" content="Find and access the nearest EV charging stations effortlessly with Ecovo. Bringing all EV chargers under one roof, we ensure a seamless, stress-free electric vehicle experience with nationwide coverage.">
+
+<!-- Open Graph (OG) for Social Media -->
+<meta property="og:title" content="Ecovo - Find EV Charging Stations Near You">
+<meta property="og:description" content="Eliminate range anxiety with Ecovo! Locate the nearest EV charging stations and enjoy 24/7 access to a reliable, tech-driven charging network.">
+<meta property="og:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+<meta property="og:url" content="https://www.ecovo.in">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ecovo">
+
+<!-- Twitter Card for X (Twitter) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ecovo - All EV Chargers Under One Roof">
+<meta name="twitter:description" content="Find the nearest charging station for your electric vehicle with Ecovo's seamless, reliable EV charging network.">
+<meta name="twitter:image" content="https://www.ecovo.in/assets/images/ecovo-preview.jpg">
+<meta name="twitter:site" content="@Ecovo_Official">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.ecovo.in">
+
+<title>Ecovo - Locate the Nearest EV Charging Stations</title>
+<link rel="icon" type="image/png" sizes="192x192" href="image/android-chrome-192x192.png">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNDPM9400T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNDPM9400T');
+</script>
+
+    <!-- Header Scripts -->
+    <script id="header-scripts">
+      // This script tag will be replaced with actual scripts.head content
+      if (window.scripts && window.scripts.head) {
+        document.getElementById('header-scripts').outerHTML = window.scripts.head;
+      }
+    </script>
+    
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <!-- Font stylesheet -->
+
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+    <!-- Core CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '{{settings.colors.primary}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8', 
+                200: '#d3d3d3',
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              secondary: {
+                DEFAULT: '{{settings.colors.secondary}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3', 
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              accent: {
+                DEFAULT: '{{settings.colors.accent}}',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3',
+                300: '#a3a3a3', 
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+            },
+            fontFamily: {
+              sans: ['{{settings.fonts.primary}}', 'Roboto', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+              heading: ['{{settings.fonts.secondary}}', 'system-ui', 'sans-serif'],
+              body: ['{{settings.fonts.secondary}}', 'system-ui', 'sans-serif'],
+            },
+            spacing: {
+              '18': '4.5rem',
+              '22': '5.5rem',
+              '30': '7.5rem',
+            },
+            maxWidth: {
+              '8xl': '88rem',
+              '9xl': '96rem',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in',
+              'fade-out': 'fadeOut 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'slide-down': 'slideDown 0.5s ease-out',
+              'slide-left': 'slideLeft 0.5s ease-out',
+              'slide-right': 'slideRight 0.5s ease-out',
+              'scale-in': 'scaleIn 0.5s ease-out',
+              'scale-out': 'scaleOut 0.5s ease-out',
+              'spin-slow': 'spin 3s linear infinite',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-slow': 'bounce 3s infinite',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeOut: {
+                '0%': { opacity: '1' },
+                '100%': { opacity: '0' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideDown: {
+                '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideLeft: {
+                '0%': { transform: 'translateX(20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              slideRight: {
+                '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              scaleIn: {
+                '0%': { transform: 'scale(0.9)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              scaleOut: {
+                '0%': { transform: 'scale(1.1)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+            },
+            aspectRatio: {
+              'portrait': '3/4',
+              'landscape': '4/3',
+              'ultrawide': '21/9',
+            },
+          },
+        },
+        variants: {
+          extend: {
+            opacity: ['disabled'],
+            cursor: ['disabled'],
+            backgroundColor: ['active', 'disabled'],
+            textColor: ['active', 'disabled'],
+          },
+        },
+      }
+    });
+    </script>
+
+    <!-- Utilities and Components -->
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+    
+    <!-- Optimized Font Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="EV charging, electric vehicle, charging stations, book EV chargers, EV charging near me, electric car charging, fast EV charging, best EV charging network, sustainable energy, green transportation">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="ECOVO - All EV Chargers Under One Roof">
+    <meta property="og:description" content="Locate the nearest EV charging stations effortlessly. Fast, reliable, and easy to use.">
+    <meta property="og:image" content="https://www.evovo.in/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://www.evovo.in/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ECOVO - All EV Chargers Under One Roof">
+    <meta name="twitter:description" content="Find, book, and charge effortlessly with ECOVO - your one-stop EV charging solution.">
+    <meta name="twitter:image" content="https://www.evovo.in/assets/images/og-image.jpg">
+    <meta name="twitter:url" content="https://www.evovo.in/">
+
+    <!-- Additional SEO Enhancements -->
+    <meta name="author" content="ECOVO Team">
+    <meta name="geo.region" content="IN" />
+    <meta name="geo.placename" content="India" />
+    <meta name="geo.position" content="20.5937;78.9629" />
+    <meta name="ICBM" content="20.5937, 78.9629" />
+    <link rel="canonical" href="https://www.evovo.in/" />
+    
+    <link rel="icon" type="image/x-icon" href="{{settings.favicon}}">
+    
+    <style>
+      button, a {
+  min-height: 48px; /* Recommended touch target size */
+  padding: 12px;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: "YourPrimaryFont", system-ui, sans-serif;
+}
+body {
+    font-family: "YourSecondaryFont", system-ui, sans-serif;
+}
+
+    </style>
+ <body class="antialiased text-gray-800 min-h-screen flex flex-col" >
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+       Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="relative z-50 bg-white dark:bg-gray-900">
+      <!-- Header content goes here -->
+    </header>
+
+    <!-- Main content area -->
+    <main id="main-content" class="flex-1 relative h-full">
+      <!-- Content will be injected here -->
+    </main>
+
+    <!-- {bodyScripts} -->
+
+ 
+<element id="ba332b02-6a38-43ee-a16c-bd741061d91c" data-section-id="ba332b02-6a38-43ee-a16c-bd741061d91c">
+
+
+<div id="root">
+<section id="header" class="relative min-h-[70vh] bg-neutral-900">
+  <nav class="fixed w-full z-50 bg-neutral-900/90 backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0">
+          <a href="/" class="flex items-center">
+            <span class="text-2xl font-bold text-[#2ECC71]">ECOVO</span>
+          </a>
+        </div>
+        
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-center space-x-4">
+              <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+              <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+              <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+              <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+          </div>
+        </div>
+        
+        <div class="md:hidden flex items-center">
+          <button id="menuBtn" class="text-gray-300 hover:text-white">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-neutral-900">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+          <div class="ml-10 flex items-center space-x-4">
+              <a href="index.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+              <a href="market1.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Market</a>
+              <a href="contact.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+              <a href="about.html" class="text-gray-300 hover:text-[#2ECC71] px-3 py-2 rounded-md text-sm font-medium transition-colors">About us</a>
+          </div>
+        </div>
+    </div>
+    
+  </nav>
+               
+<div id="root">
+    <section id="hero" class="relative bg-neutral-900 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="el-7v2aa03q">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" id="el-nt08kwdo">
+          <div class="animate__animated animate__fadeInLeft" id="el-p8yga7hv">
+            <div class="bg-[#2ECC71]/10 inline-block px-4 py-2 rounded-full mb-4" id="el-arqrud2t">
+              <span class="text-[#2ECC71] font-medium" id="el-papd29er">Smart EV Charging</span>
+            </div>
+            <h2 class="text-4xl font-bold text-white mb-6" id="el-yxvgoblh">
+              Find and Book EV Charging Stations in Real-Time
+            </h2>
+            <p class="text-gray-300 mb-8" id="el-xfb5n455">
+              Never worry about finding a charging station again. Our smart booking system helps you locate, compare, and reserve charging spots instantly.
+            </p>
+        
+
+
+<script>
+  document.getElementById('mobileMenuButton').addEventListener('click', function() {
+    document.getElementById('mobileMenu').classList.toggle('hidden');
+  });
+</script>
+
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+</div>
+</element><element id="8c0e9da3-0138-405c-aa25-2804723ab0c8" data-section-id="8c0e9da3-0138-405c-aa25-2804723ab0c8">
+
+
+ 
+
+            <!-- Clickable link to trigger popup -->
+    
+    <!-- Popup container -->
+ 
+          
+        </div>
+        <div class="mt-8 flex items-center space-x-4" id="el-7fjlhjww">
+          <div class="flex -space-x-2" id="el-338ukr5t">
+            
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="relative animate__animated animate__fadeInRight" id="el-sj36v8h3">
+        <div class="bg-[#2ECC71]/20 absolute inset-0 rounded-2xl filter blur-3xl" id="el-id64rysw"></div>
+        <div class="relative bg-neutral-800 p-6 rounded-2xl border border-neutral-700" id="el-d3hiegp2">
+          <div class="space-y-4" id="el-cc2eesuu">
+            <div class="bg-neutral-700 p-4 rounded-lg" id="el-1pdsj3sa">
+              <h3 class="text-white font-semibold mb-2" id="el-5n9flr5a">Quick Station Search</h3>
+              <div class="space-y-3" id="el-me19r17g">
+                <input type="text" placeholder="Enter location" class="w-full px-4 py-2 bg-neutral-600 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2ECC71]" id="el-i03sspbs">
+                <select class="w-full px-4 py-2 bg-neutral-600 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2ECC71]" id="el-xmzhpx3z">
+                  <option value="" id="el-gbm1y8ta">Connector Type</option>
+                  <option value="type1" id="el-dnho7zb4">Type 1</option>
+                  <option value="type2" id="el-t2wfgfg7">Type 2</option>
+                  <option value="ccs" id="el-f964743n">CCS</option>
+                  <option value="chademo" id="el-9bexyjc4">CHAdeMO</option>
+                </select>
+                <button class="w-full py-3 bg-[#2ECC71] text-white font-semibold rounded-lg hover:bg-[#27AE60] transition duration-300" id="el-42v6invs">
+                 <a href="#search">Find Available Stations</a>
+                </button>
+              </div>
+            </div>
+            <div class="bg-neutral-700 p-4 rounded-lg" id="el-sty03v0d">
+              <div class="flex justify-between items-center mb-2" id="el-96zz57ka">
+                <h3 class="text-white font-semibold" id="el-890vpmn1">Nearby Stations</h3>
+                <span class="text-[#2ECC71] text-sm" id="el-t1byj7pg">See all</span>
+              </div>
+              <div class="space-y-3" id="el-v9x27xeg">
+                <div class="flex items-center justify-between" id="el-7m0c5nof">
+                  <div id="el-yndx5wod">
+                    <p class="text-white" id="el-3yaokkgn">Central Station</p>
+                    <p class="text-gray-400 text-sm" id="el-lg6p7s7e">0.5 km away • 2 spots available</p>
+                  </div>
+                  <span class="text-[#2ECC71]" id="el-852m528u" contenteditable="false">₹17/kWh</span>
+                </div>
+                <div class="flex items-center justify-between" id="el-8f2sxs7w">
+                  <div id="el-8k25jrfj">
+                    <p class="text-white" id="el-gnx6t7u5">Mall Parking</p>
+                    <p class="text-gray-400 text-sm" id="el-apuastrj">1.2 km away • 5 spots available</p>
+                  </div>
+                  <span class="text-[#2ECC71]" id="el-jz2m12uj" contenteditable="false">₹20/kWh</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<h1 class="text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl text-center mt-6">
+    Reserve Your Charging Station
+  </h1>  
+<div id="mc_embed_shell">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+     
+</style>
+<div id="mc_embed_signup">
+  <form action="https://ecovo.us22.list-manage.com/subscribe/post?u=18e21f97891e088bcb8b5a296&amp;id=df6159e69a&amp;f_id=00e6c2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <div id="mc_embed_signup_scroll"><h2></h2>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group"><label for="mce-FNAME">First Name <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" value="" required=""></div><div class="mc-field-group"><label for="mce-PHONE">Phone Number </label><input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" value=""></div>
+      <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display: none;"></div>
+          <div class="response" id="mce-success-response" style="display: none;"></div>
+      </div>
+  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+      <input type="text" name="b_18e21f97891e088bcb8b5a296_df6159e69a" tabindex="-1" value="">
+  </div>
+      <div class="optionalParent">
+          <div class="clear foot">
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+              <p style="margin: 0px auto;"><a href="http://eepurl.com/jamTCo" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+          </div>
+      </div>
+  </div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
+<element id="f6a33230-dbf3-483d-a849-430e3f6ff399" data-section-id="f6a33230-dbf3-483d-a849-430e3f6ff399">
+
+    <div id="root">
+      <section id="howitworks" class="bg-neutral-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-16 animate__animated animate__fadeIn">
+            <h2 class="text-3xl font-bold text-neutral-900 mb-4">How It Works</h2>
+            <p class="text-neutral-600 max-w-2xl mx-auto">Book your EV charging session in three simple steps</p>
+          </div>
+    
+          <div class="relative">
+            <div class="absolute top-1/2 left-0 w-full h-1 bg-[#2ECC71] transform -translate-y-1/2 hidden md:block"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="relative bg-white rounded-xl p-8 shadow-lg animate__animated animate__fadeInLeft">
+                <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#2ECC71] rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
+                <div class="mt-8 text-center">
+                  <div class="w-16 h-16 mx-auto bg-[#2ECC71]/10 rounded-full flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-[#2ECC71]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="text-xl font-semibold text-neutral-900 mb-3">Find a Station</h3>
+                  <p class="text-neutral-600">Search for nearby charging stations and check real-time availability</p>
+                </div>
+              </div>
+    
+              <div class="relative bg-white rounded-xl p-8 shadow-lg animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
+                <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#2ECC71] rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
+                <div class="mt-8 text-center">
+                  <div class="w-16 h-16 mx-auto bg-[#2ECC71]/10 rounded-full flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-[#2ECC71]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="text-xl font-semibold text-neutral-900 mb-3">Book Your Slot</h3>
+                  <p class="text-neutral-600">Select your preferred time slot and confirm your booking</p>
+                </div>
+              </div>
+    
+              <div class="relative bg-white rounded-xl p-8 shadow-lg animate__animated animate__fadeInLeft" style="animation-delay: 0.4s">
+                <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#2ECC71] rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
+                <div class="mt-8 text-center">
+                  <div class="w-16 h-16 mx-auto bg-[#2ECC71]/10 rounded-full flex items-center justify-center mb-4">
+                    <svg class="w-8 h-8 text-[#2ECC71]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="text-xl font-semibold text-neutral-900 mb-3">Start Charging</h3>
+                  <p class="text-neutral-600">Arrive at the station and start charging with one tap</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="mt-16 text-center">
+            <div class="bg-white rounded-xl p-8 shadow-lg max-w-3xl mx-auto animate__animated animate__fadeInUp">
+              <h3 class="text-2xl font-semibold text-neutral-900 mb-4">Ready to Get Started?</h3>
+              <p class="text-neutral-600 mb-6">Download our app and join thousands of EV drivers who are already using our platform</p>
+              <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="flex items-center justify-center px-6 py-3 bg-[#2ECC71] text-white rounded-lg hover:bg-[#27AE60] transition duration-300">
+                  <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.05 12c0-1.52-.71-2.87-1.82-3.75l1.59-1.59C18.48 8.15 19.5 9.95 19.5 12s-1.02 3.85-2.68 5.34l-1.59-1.59c1.11-.88 1.82-2.23 1.82-3.75zm-3.89 0c0-.83-.38-1.57-.98-2.05l1.59-1.59C14.99 9.52 15.75 10.67 15.75 12s-.76 2.48-1.98 3.24l-1.59-1.59c.6-.48.98-1.22.98-2.05zM4 4h9v2H4V4zm9 16H4v-2h9v2zm0-4H4v-2h9v2zm0-4H4v-2h9v2zm0-4H4V6h9v2z"></path>
+                  </svg>
+                  Play Store
+                </button>
+                <button class="flex items-center justify-center px-6 py-3 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 transition duration-300">
+                  <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"></path>
+                  </svg>
+                  App Store
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div></element>
+       
+</section>
+</div></element><element id="aaa4cf31-f076-4fe0-b406-5f86e460a235" data-section-id="aaa4cf31-f076-4fe0-b406-5f86e460a235">
+
+
+  <div id="root">
+    <footer id="footer" class="bg-neutral-900 text-gray-300">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="space-y-4">
+            <h3 class="text-white text-lg font-semibold">ECOVO</h3>
+            <p class="text-sm">Find the nearest charging station for your electric vehicle, anytime, anywhere</p>
+            <div class="flex space-x-4">
+                <a href="https://www.instagram.com/ecovo.ev/" class="hover:text-white" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/ecovo_ev" class="hover:text-white"><i class="fab fa-twitter" target="_blank"></i></a>
+                <a href="https://www.instagram.com/ecovo.in/ "class="hover:text-white"><i class="fab fa-instagram" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A105313752&keywords=ecovo&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=7a4bd9d3-3390-42d8-bd02-b0a85b05d47c&sid=L*T&spellCorrectionEnabled=true" class="hover:text-white"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          
+          <div class="space-y-4">
+            <h4 class="text-white text-lg font-semibold">Quick Links</h4>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="hover:text-white">Home</a></li>
+              <li><a href="market.html" class="hover:text-white">Market</a></li>
+              <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+              <li><a href="about.html" class="hover:text-white">About Us</a></li>
+            </ul>
+          </div>
+          
+          <div class="space-y-4">
+            <h4 class="text-white text-lg font-semibold">Contact</h4>
+            <ul class="space-y-2">
+              <li>support@ecovo.com</li>
+              <li>1-800-EV-CHARGE</li>
+              <li>123 Energy Street</li>
+              <li>Green City, EC 12345</li>
+            </ul>
+          </div>
+          
+          <div class="space-y-4">
+            <h4 class="text-white text-lg font-semibold">Download App</h4>
+            <div class="flex flex-col space-y-2">
+              <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+                <i class="fab fa-apple mr-2"></i>App Store
+              </a>
+              <a href="#" class="inline-block px-4 py-2 bg-white text-neutral-900 rounded-lg hover:bg-gray-200">
+                <i class="fab fa-google-play mr-2"></i>Google Play
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      
+    
+  
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</element>
+          <div id="page_complete">
+          <script>
+              console.log('Page complete');
+          </script>
+  
+        </div>
+        <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
+            <defs id="SvgjsDefs1002"></defs>
+            <polyline id="SvgjsPolyline1003" points="0,0"></polyline>
+            <path id="SvgjsPath1004" d="M0 0 "></path>
+        </svg>
+        </body>
+        </html>
